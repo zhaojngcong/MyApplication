@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="100dp">
+
+    <ImageView
+        android:id="@+id/gimg"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="match_parent"
+        android:background="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/gname"
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_weight="8"
+        android:layout_height="match_parent"
+
+        android:text="我是商品名" />
+</LinearLayout>
+
